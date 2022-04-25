@@ -1,0 +1,31 @@
+UserDB:
+    Aadhaar_Card_Number
+    Phone_Number
+    Name
+    DOB
+    Gender
+    Photo
+    Address
+    Fingerprint
+
+OperationalCenterDB:
+    CenterId
+    Center_Loc_Coordinates
+    OwnerName
+    Timings
+
+ActiveReqDB:(TempDB)
+    CenterId
+    Aadhaar_Card_Number
+    Req_Task
+
+CenterTargetDB:
+    CenterId
+    Aadhaar_Card_Number
+    Req_Task
+    Amount_Charged
+    Commission_Paid
+
+
+
+
